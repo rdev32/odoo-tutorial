@@ -15,6 +15,12 @@
             'estate/static/src/xml/**/*',
             'estate/static/src/js/**/*',
         ],
+        # or the standard way
+        'web.assets_backend': [
+            'owl/static/src/components/*/*.js',
+            'owl/static/src/components/*/*.xml',
+            'owl/static/src/components/*/*.scss',
+        ],
     },
     'installable': True,
     'auto_install': False,
